@@ -1,4 +1,7 @@
-# OTM-harjoitustyö
+# OTM-laskarit
+
+Harjoitustyö tulee luultavasti löytymään [täältä](https://github.com/tulir/gomuks),
+mutta en ole vielä täysin varma, teenkö juuri tuon projektin harjoitustyönä.
 
 ## Tehtävät
 
