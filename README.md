@@ -1,7 +1,8 @@
 # OTM-laskarit
 
-Harjoitustyö tulee luultavasti löytymään [täältä](https://github.com/tulir/gomuks),
-mutta en ole vielä täysin varma, teenkö juuri tuon projektin harjoitustyönä.
+Harjoitustyö on (luultavasti) terminaalipohjainen asiakasohjelma Matrix-protokollalle.
+Itse projekti löytyy [gomuks](https://github.com/tulir/gomuks)-reposta, ja kurssin
+vaatima dokumentaatio tämän repon kansiosta [/harjoitustyö](https://github.com/tulir/hy-otm/tree/master/harjoitustyö).
 
 ## Tehtävät
 
