@@ -17,14 +17,18 @@ Sovelluksella on ainoastaan yksi käyttäjätyyppi eli _normaali käyttäjä_.
 * käyttäjä voi kirjautua järjestelmään
 
 ### Kirjautumisen jälkeen
-* käyttäjä näkee listan huoneista, joihin käyttäjä on liittynyt
-* käyttäjä näkee uudet viestit huoneissa heti
-* käyttäjä voi liittyä huoneeseen
-* käyttäjä voi poistua huoneesta
-* käyttäjä voi vaihtaa huoneiden välillä
-* käyttäjä voi selata huoneen viestihistoriaa
-* käyttäjä voi lähettää viestin huoneeseen
-* käyttäjä voi kirjautua ulos järjestelmästä
+* käyttäjä näkee
+  * listan huoneista, joihin käyttäjä on liittynyt
+  * uudet viestit huoneissa
+  * uudet viestit työpöytäilmoituksina
+* käyttäjä voi
+  * liittyä huoneisiin ja poistua huoneista
+  * vaihtaa huoneiden välillä
+  * selata huoneen viestihistoriaa
+  * lähettää viestin huoneeseen
+  * luoda huoneita
+  * kutsua muita käyttäjiä huoneeseen
+  * kirjautua ulos
 
 ## Jatkokehitysideoita
 Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla
