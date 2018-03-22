@@ -17,4 +17,6 @@
 |       | 1    | lähtevien viestien näyttö heti (ennen vastauksen saamista)                            |
 |       | 1    | dokumentaatiota, pieniä korjauksia                                                    |
 |       | 2    | yksinkertainen tuki työpöytäilmoituksille                                             |
-| yht   | 40   |                                                                                       |
+| 21.3. | 4    | tuki työpöytäilmoitusten filteröintijärjestelmälle (push rules), pieniä korjauksia    |
+|       | 2    | refaktorointia ja dokumentaatiota                                                     |
+| yht   | 46   |                                                                                       |
