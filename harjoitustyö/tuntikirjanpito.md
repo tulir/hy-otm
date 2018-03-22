@@ -19,4 +19,7 @@
 |       | 2    | yksinkertainen tuki työpöytäilmoituksille                                             |
 | 21.3. | 4    | tuki työpöytäilmoitusten filteröintijärjestelmälle (push rules), pieniä korjauksia    |
 |       | 2    | refaktorointia ja dokumentaatiota                                                     |
-| yht   | 46   |                                                                                       |
+| 22.3. | 2    | tuki viestihistorian levylle tallentamiselle                                          |
+|       | 2    | tuki m.emote-viestityypille (/me-komento)                                             |
+|       | 2    | bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
+| yht   | 52   |                                                                                       |
