@@ -22,4 +22,8 @@
 | 22.3. | 2    | tuki viestihistorian levylle tallentamiselle                                          |
 |       | 2    | tuki m.emote-viestityypille (/me-komento)                                             |
 |       | 2    | bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
-| yht   | 52   |                                                                                       |
+| 23.3. | 2    | historiaa selatessa sijainnin näyttö                                                  |
+|       | 2    | bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
+| 24.3. | 1    | viestien haun optimointia                                                             |
+| 25.3. | 2    | parempi tuki hiirellä rullaukselle, huonelistan siirto omaan komponenttiin            |
+| yht   | 59   |                                                                                       |

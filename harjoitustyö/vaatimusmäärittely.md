@@ -28,6 +28,11 @@ Sovelluksella on ainoastaan yksi käyttäjätyyppi eli _normaali käyttäjä_.
   * lähettää viestin huoneeseen
   * luoda huoneita
   * kutsua muita käyttäjiä huoneeseen
+  * moderoida huoneita
+    * poistaa käyttäjiä huoneesta
+    * antaa käyttäjille porttikielto huoneeseen
+    * hiljentää käyttäjä
+    * antaa muille käyttäjille lupa moderoida huonetta
   * kirjautua ulos
 
 ## Jatkokehitysideoita
@@ -37,3 +42,5 @@ Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seura
 * käyttäjän asetusten muuttaminen
 * ulkoasun konfigurointi
 * rekisteröityminen
+* formatoitujen viestien lähettäminen
+* viestien formatoinnin näyttäminen
