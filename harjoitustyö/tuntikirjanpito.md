@@ -26,4 +26,6 @@
 |       | 2    | bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
 | 24.3. | 1    | viestien haun optimointia                                                             |
 | 25.3. | 2    | parempi tuki hiirellä rullaukselle, huonelistan siirto omaan komponenttiin            |
-| yht   | 59   |                                                                                       |
+| 26.3. | 1    | parannuksia vierityspalkin sijainnin laskentaan                                       |
+|       | 2    | uusien viestien näyttö huonelistassa, notifikaatioäänet ja muita parannuksia          |
+| yht   | 62   |                                                                                       |
