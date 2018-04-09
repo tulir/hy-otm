@@ -28,4 +28,5 @@
 | 25.3. | 2    | parempi tuki hiirellä rullaukselle, huonelistan siirto omaan komponenttiin            |
 | 26.3. | 1    | parannuksia vierityspalkin sijainnin laskentaan                                       |
 |       | 2    | uusien viestien näyttö huonelistassa, notifikaatioäänet ja muita parannuksia          |
-| yht   | 62   |                                                                                       |
+|  8.3. | 4    | Matrix-kommunikaation ja UI:n erottelu täysin interfacejen avulla                     |
+| yht   | 66   |                                                                                       |
