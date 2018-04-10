@@ -4,7 +4,7 @@
 Sovelluksen avulla käyttäjien on mahdollista keskustella toisten käyttäjien kanssa Matrix-protokollan välityksellä.
 
 ## Käyttäjät
-Sovelluksella on ainoastaan yksi käyttäjätyyppi eli _normaali käyttäjä_.
+Sovelluksella ei ole eri käyttäjätyyppejä.
 
 ## Käyttöliittymäluonnos
 ![Kirjautumisnäkymä](https://img.mau.lu/HIzm2.png)
@@ -12,18 +12,19 @@ Sovelluksella on ainoastaan yksi käyttäjätyyppi eli _normaali käyttäjä_.
 ![Viestinäkymä](https://img.mau.lu/hhj4M.png)
 
 ## Perusversion tarjoama toiminnallisuus
+* Ohjelman on toimittava yleisillä terminaaliemulaattoreilla yleisillä GNU/Linux-jakeluilla ja macOS-käyttöjärjestelmällä. Windows-tuki ei ole vaadittu.
 
 ### Ennen kirjautumista
-* käyttäjä voi kirjautua järjestelmään
+* Käyttäjä voi kirjautua järjestelmään
 
 ### Kirjautumisen jälkeen
-* käyttäjä näkee
+* Käyttäjä näkee
   * [x] listan huoneista, joihin käyttäjä on liittynyt
   * [x] uudet viestit huoneissa
   * [x] uudet viestit työpöytäilmoituksina
   * [x] viestin tekstin kokonaan, vaikka viesti ei mahtuisi yhdelle riville
   * [ ] kuvat renderöitynä terminaalin värien avulla
-* käyttäjä voi
+* Käyttäjä voi
   * [ ] klikata linkkejä avatakseen ne vakioselaimella
   * [ ] klikata kuvia avatakseen ne vakiokuvankatseluohjelmalla
   * [x] liittyä huoneisiin ja poistua huoneista
@@ -42,10 +43,10 @@ Sovelluksella on ainoastaan yksi käyttäjätyyppi eli _normaali käyttäjä_.
 ## Jatkokehitysideoita
 Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla
 
-* huoneiden asetusten muuttaminen
-* käyttäjän asetusten muuttaminen
-* ulkoasun konfigurointi
-* rekisteröityminen
-* formatoitujen viestien lähettäminen
-* monirivisten viestien lähettäminen
-* formatoitujen viestien näyttäminen (Matrixin tukeman HTML-subsetin renderöinti)
+* Huoneiden asetusten muuttaminen
+* Käyttäjän asetusten muuttaminen
+* Ulkoasun konfigurointi
+* Rekisteröityminen
+* Formatoitujen viestien lähettäminen
+* Monirivisten viestien lähettäminen
+* Formatoitujen viestien näyttäminen (Matrixin tukeman HTML-subsetin renderöinti)
