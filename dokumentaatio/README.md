@@ -2,11 +2,20 @@ Tämä kansio sisältää harjoitustyön dokumentaation turhat osat.
 Itse projekti (mukaanlukien testit ja relevantti dokumentaatio)
 löytyy [gomuks](https://github.com/tulir/gomuks)-reposta.
 
+Mavenia vastaavana riippuvuuksien hallintajärjestelmänä käytetään
+[vgo](https://github.com/golang/go/wiki/vgo)-prototyyppiä, jonka
+on tarkoitus olla tulevaisuudessa Go:n virallinen pakettimanageri.
+
+`vgo`:n käyttö ei ole pakollista, ja tavallinen `go`-komento toimii
+myös. `go`-komentoa käyttäessä riippuvuuksien versioita ei tosin
+tarkisteta, vaan komento lataa aina uusimman version.
+
 ## Dokumentaatio
 * [Vaatimusmäärittely](vaatimusmäärittely.md)
 * [Tuntikirjanpito](tuntikirjanpito.md)
 
 ## Toiminnot
+Jos käytät `vgo`:ta, aseta `alias go=vgo`
 
 ### Testaus
 Testien suoritus:
