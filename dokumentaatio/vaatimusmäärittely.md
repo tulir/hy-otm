@@ -18,22 +18,26 @@ Sovelluksella on ainoastaan yksi käyttäjätyyppi eli _normaali käyttäjä_.
 
 ### Kirjautumisen jälkeen
 * käyttäjä näkee
-  * listan huoneista, joihin käyttäjä on liittynyt
-  * uudet viestit huoneissa
-  * uudet viestit työpöytäilmoituksina
+  * [x] listan huoneista, joihin käyttäjä on liittynyt
+  * [x] uudet viestit huoneissa
+  * [x] uudet viestit työpöytäilmoituksina
+  * [x] viestin tekstin kokonaan, vaikka viesti ei mahtuisi yhdelle riville
+  * [ ] kuvat renderöitynä terminaalin värien avulla
 * käyttäjä voi
-  * liittyä huoneisiin ja poistua huoneista
-  * vaihtaa huoneiden välillä
-  * selata huoneen viestihistoriaa
-  * lähettää viestin huoneeseen
-  * luoda huoneita
-  * kutsua muita käyttäjiä huoneeseen
-  * moderoida huoneita
-    * poistaa käyttäjiä huoneesta
-    * antaa käyttäjille porttikielto huoneeseen
-    * hiljentää käyttäjä
-    * antaa muille käyttäjille lupa moderoida huonetta
-  * kirjautua ulos
+  * [ ] klikata linkkejä avatakseen ne vakioselaimella
+  * [ ] klikata kuvia avatakseen ne vakiokuvankatseluohjelmalla
+  * [x] liittyä huoneisiin ja poistua huoneista
+  * [x] vaihtaa huoneiden välillä
+  * [x] selata huoneen viestihistoriaa
+  * [x] lähettää viestin huoneeseen
+  * [ ] luoda huoneita
+  * [ ] kutsua muita käyttäjiä huoneeseen
+  * [ ] moderoida huoneita
+    * [ ] poistaa käyttäjiä huoneesta
+    * [ ] antaa käyttäjille porttikielto huoneeseen
+    * [ ] hiljentää käyttäjä
+    * [ ] antaa muille käyttäjille lupa moderoida huonetta
+  * [ ] kirjautua ulos
 
 ## Jatkokehitysideoita
 Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla
@@ -43,4 +47,5 @@ Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seura
 * ulkoasun konfigurointi
 * rekisteröityminen
 * formatoitujen viestien lähettäminen
-* viestien formatoinnin näyttäminen
+* monirivisten viestien lähettäminen
+* formatoitujen viestien näyttäminen (Matrixin tukeman HTML-subsetin renderöinti)

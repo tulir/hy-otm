@@ -11,12 +11,12 @@ löytyy [gomuks](https://github.com/tulir/gomuks)-reposta.
 ### Testaus
 Testien suoritus:
 ```bash
-$ go test
+$ go test ./...
 ```
 
 Testikattavuusraportin generointi:
 ```
-$ go test -coverprofile=coverage.out
+$ go test ./... -coverprofile=coverage.out
 $ go tool cover -html=coverage.out
 ```
 

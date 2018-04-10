@@ -29,4 +29,6 @@
 | 26.3. | 1    | parannuksia vierityspalkin sijainnin laskentaan                                       |
 |       | 2    | uusien viestien näyttö huonelistassa, notifikaatioäänet ja muita parannuksia          |
 |  8.3. | 4    | Matrix-kommunikaation ja UI:n erottelu täysin interfacejen avulla                     |
-| yht   | 66   |                                                                                       |
+| 10.3. | 5    | UI:n sisäistä refaktorointia, kuvien renderöinti pixtermin avulla                     |
+| 10.3. | 1    | Pushrules-paketille testien kirjoittaminen                                            |
+| yht   | 72   |                                                                                       |
