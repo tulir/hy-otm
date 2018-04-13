@@ -31,4 +31,7 @@
 |  8.4. | 4    | Matrix-kommunikaation ja UI:n erottelu täysin interfacejen avulla                     |
 | 10.4. | 5.5  | UI:n sisäistä refaktorointia, kuvien renderöinti pixtermin avulla                     |
 | 10.4. | 0.5  | Pushrules-paketille testin kirjoittaminen                                             |
-| yht   | 72   |                                                                                       |
+| 11.4. | 5    | Kuvien avaus ulkoisessa kuvankatseluohjelmassa, pakettien refaktorointia              |
+| 13.4. | 4    | Viestien renderöinnin ja historian tallennuksen refaktorointia                        |
+| 13.4. | 2    | Alustava HTML-renderöinti                                                             |
+| yht   | 83   |                                                                                       |
