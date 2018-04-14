@@ -20,6 +20,11 @@ tarkisteta, vaan komento lataa aina uusimman version.
 Jos käytät `vgo`:ta, aseta `alias go=vgo`
 
 ### Testaus
+Varmista, että assert-kirjasto on asennettu:
+```bash
+$ go get -u github.com/stretchr/testify/assert
+```
+
 Testien suoritus:
 ```bash
 $ go test ./...
