@@ -34,4 +34,5 @@
 | 11.4. | 5    | Kuvien avaus ulkoisessa kuvankatseluohjelmassa, pakettien refaktorointia              |
 | 13.4. | 4    | Viestien renderöinnin ja historian tallennuksen refaktorointia                        |
 | 13.4. | 2    | Alustava HTML-renderöinti                                                             |
-| yht   | 83   |                                                                                       |
+| 14.4. | 3    | Monimutkaisempi HTML-renderöinti, parserin siirto eri pakettiin                       |
+| yht   | 86   |                                                                                       |
