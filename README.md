@@ -17,12 +17,29 @@ tarkisteta, vaan komento lataa aina uusimman version.
 * [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 
 ## Toiminnot
-Jos käytät `vgo`:ta, aseta `alias go=vgo`
+
+Toiminnoissa mainittu `$GOPATH`-kansio on yleensä `$HOME/go`.
+
+`GOPATH`ia voi muuttaa asettamalla ympäristömuuttujan ennen `go`-komennon ajamista, esim: `export GOPATH=$HOME/new_gopath`
+
+### Asennus
+Asenna [Go:n standardityökalut](https://golang.org/dl/).
+
+Asenna gomuks:
+```bash
+$ go get -u maunium.net/go/gomuks
+```
+Tämä komento lataa tai päivittää gomuksin kansioon `$GOPATH/src/maunium.net/go/gomuks`,
+hakee kaikki riippuvuudet ja kompiloi ohjelman kansioon `$GOPATH/bin`.
+
+Jos käytät vgo:ta, kloonaa gomuks kansioon `$GOPATH/src/maunium.net/go/gomuks` ja aja siellä `vgo get -u`
+
+Gomuksin päivitystä varten riittää, että ajaa asennuskomennon uudestaan.
 
 ### Testaus
 Varmista, että assert-kirjasto on asennettu:
 ```bash
-$ go get -u github.com/stretchr/testify/assert
+$ go get github.com/stretchr/testify/assert
 ```
 
 Testien suoritus:
