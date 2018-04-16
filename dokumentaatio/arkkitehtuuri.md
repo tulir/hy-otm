@@ -1,4 +1,6 @@
 ### Pakkauskaavio
+Punaisella merkityt yhteydet on tarkoitus poistaa, jotta käyttöliittymäpaketin voisi korvata eri käyttöliittymällä mahdollisimman helposti.
+
 ![pakkauskaavio](pakkauskaavio.png)
 
 ### Luokkakaavio
