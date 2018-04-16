@@ -35,4 +35,5 @@
 | 13.4. | 4    | Viestien renderöinnin ja historian tallennuksen refaktorointia                        |
 | 13.4. | 2    | Alustava HTML-renderöinti                                                             |
 | 14.4. | 3    | Monimutkaisempi HTML-renderöinti, parserin siirto eri pakettiin                       |
-| yht   | 86   |                                                                                       |
+| 16.4. | 3    | Lisää testejä, arkkitehtuuridokumentti                                                |
+| yht   | 89   |                                                                                       |
