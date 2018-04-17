@@ -16,6 +16,7 @@ tarkisteta, vaan komento lataa aina uusimman version.
 * [Vaatimusmäärittely](dokumentaatio/vaatimusmäärittely.md)
 * [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 * [Arkkitehtuuri](dokumentaatio/arkkitehtuuri.md)
+* [Käyttöohje](dokumentaatio/käyttöohje.md)
 
 ## Toiminnot
 
@@ -48,7 +49,7 @@ Testien suoritus:
 $ go test ./...
 ```
 
-Testikattavuusraportin generointi:
+Testikattavuusraportin generointi (raportti avautuu selaimessa):
 ```
 $ go test ./... -coverprofile=coverage.out
 $ go tool cover -html=coverage.out
