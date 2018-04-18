@@ -23,14 +23,16 @@ Sovelluksella ei ole eri käyttäjätyyppejä.
   * [x] uudet viestit huoneissa
   * [x] uudet viestit työpöytäilmoituksina
   * [x] viestin tekstin kokonaan, vaikka viesti ei mahtuisi yhdelle riville
-  * [ ] kuvat renderöitynä terminaalin värien avulla
+  * [x] kuvat renderöitynä terminaalin värien avulla
+  * [x] Pienen HTML-osajoukon renderöinti terminaalin tyylien avulla
 * Käyttäjä voi
   * [ ] klikata linkkejä avatakseen ne vakioselaimella
-  * [ ] klikata kuvia avatakseen ne vakiokuvankatseluohjelmalla
+  * [x] klikata kuvia avatakseen ne vakiokuvankatseluohjelmalla
   * [x] liittyä huoneisiin ja poistua huoneista
   * [x] vaihtaa huoneiden välillä
   * [x] selata huoneen viestihistoriaa
   * [x] lähettää viestin huoneeseen
+    * [x] lähettää formatoituja viestejä
   * [ ] luoda huoneita
   * [ ] kutsua muita käyttäjiä huoneeseen
   * [ ] moderoida huoneita
@@ -47,6 +49,4 @@ Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seura
 * Käyttäjän asetusten muuttaminen
 * Ulkoasun konfigurointi
 * Rekisteröityminen
-* Formatoitujen viestien lähettäminen
 * Monirivisten viestien lähettäminen
-* Formatoitujen viestien näyttäminen (Matrixin tukeman HTML-subsetin renderöinti)

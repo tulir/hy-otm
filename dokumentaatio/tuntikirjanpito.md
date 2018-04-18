@@ -36,4 +36,6 @@
 | 13.4. | 2    | Alustava HTML-renderöinti                                                             |
 | 14.4. | 3    | Monimutkaisempi HTML-renderöinti, parserin siirto eri pakettiin                       |
 | 16.4. | 3    | Lisää testejä, arkkitehtuuridokumentti                                                |
-| yht   | 89   |                                                                                       |
+| 17.4. | 1    | Testejä konfiguraation parsinnalle                                                    |
+| 18.4. | 4    | Formatoitujen viestien lähettäminen                                                   |
+| yht   | 93   |                                                                                       |
