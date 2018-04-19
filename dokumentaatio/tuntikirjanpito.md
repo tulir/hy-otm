@@ -38,4 +38,5 @@
 | 16.4. | 3    | Lisää testejä, arkkitehtuuridokumentti                                                |
 | 17.4. | 1    | Testejä konfiguraation parsinnalle                                                    |
 | 18.4. | 4    | Formatoitujen viestien lähettäminen                                                   |
-| yht   | 93   |                                                                                       |
+| 19.4. | 1    | Viestin lähetyksen sekvenssikaavio ja pieniä korjauksia                               |
+| yht   | 94   |                                                                                       |

@@ -1,0 +1,36 @@
+participant Matrix
+participant GomuksSyncer
+participant UI
+participant MatrixContainer
+participant MainView
+participant RoomView
+participant MessageView
+participant UIMessage
+participant parser
+participant pushrules
+participant notification
+
+Matrix->GomuksSyncer: Event{m.room.message, ...}
+GomuksSyncer->+MatrixContainer: HandleMessage(evt)
+MatrixContainer->+MainView: GetRoom(evt.RoomID)
+MainView-->-MatrixContainer: roomView ifc.RoomView
+
+MatrixContainer->+MainView: ParseEvent(roomView, evt)
+MainView->+parser: ParseEvent(mainView.matrix, roomView.Room, evt)
+parser-->-MainView: message messages.UIMessage
+MainView-->-MatrixContainer: message ifc.Message
+
+MatrixContainer->+pushrules: PushRuleset.GetActions(roomView.Room, evt).Should()
+pushrules-->-MatrixContainer: should PushActionArrayShould
+MatrixContainer->+MainView: NotifyMessage(roomView.Room, message, should)
+MainView->notification: Send(message.Sender, message.Text, should.Highlight, should.PlaySound)
+MainView->UIMessage: SetHighlight(should.Highlight)
+MainView-->-MatrixContainer:
+
+MatrixContainer->+RoomView: AddMessage(message, ifc.AppendMessage)
+RoomView->+MessageView: AddMessage(message, ifc.AppendMessage)
+MessageView->UIMessage: CalculateBuffer(viewWidth)
+MessageView-->-RoomView:
+RoomView-->-MatrixContainer:
+
+MatrixContainer->UI: Render()

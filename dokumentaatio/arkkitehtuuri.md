@@ -5,3 +5,6 @@ Punaisella merkityt yhteydet on tarkoitus poistaa, jotta käyttöliittymäpaketi
 
 ### Luokkakaavio
 ![luokkakaavio](luokkakaavio.png)
+
+### Viestin lähetyksen sekvenssikaavio
+![sekvenssikaavio](viestin lähetys.png)
