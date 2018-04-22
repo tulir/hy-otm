@@ -39,5 +39,6 @@
 | 17.4. | 1    | Testejä konfiguraation parsinnalle                                                    |
 | 18.4. | 4    | Formatoitujen viestien lähettäminen                                                   |
 | 19.4. | 1    | Viestin lähetyksen sekvenssikaavio ja pieniä korjauksia                               |
-| 20.4. | 2    | Tab-täydennyksen ja Markdown-renderöinnin parannuksia, huonelistaan hiirituki         |
-| yht   | 96   |                                                                                       |
+| 21.4. | 2    | Tab-täydennyksen ja Markdown-renderöinnin parannuksia, huonelistaan hiirituki         |
+| 22.4. | 2    | Huoneiden osoitteiden tab-täydennys, `dep`:iin vaihto, lisää testejä                  |
+| yht   | 98   |                                                                                       |
