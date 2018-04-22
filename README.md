@@ -4,13 +4,10 @@ Harjoitustyö on Go:lla kirjoitettu terminaalipohjainen (ncurses-tyylillä)
 asiakasohjelma Matrix-protokollalle. Itse projekti löytyy [gomuks](https://github.com/tulir/gomuks)-reposta,
 ja kurssin vaatima dokumentaatio tämän repon kansiosta [/dokumentaatio](dokumentaatio).
 
-Mavenia vastaavana riippuvuuksien hallintajärjestelmänä käytetään
-[vgo](https://github.com/golang/go/wiki/vgo)-prototyyppiä, jonka
-on tarkoitus olla tulevaisuudessa Go:n virallinen pakettimanageri.
-
-`vgo`:n käyttö ei ole pakollista, ja tavallinen `go`-komento toimii
-myös. `go`-komentoa käyttäessä riippuvuuksien versioita ei tosin
-tarkisteta, vaan komento lataa aina uusimman version.
+Mavenia vastaavana riippuvuuksien hallintajärjestelmänä käytetään [dep](https://github.com/golang/dep)-järjestelmää.
+`dep`:ssä riippuvuudet tallennetaan git-repositorioon vendor-kansion alle, ja ne saa tarvittaessa päivitettyä
+komennolla `dep ensure -update`. Käyttäjien ei kuitenkaan tarvitse päivittää riippuvuuksia itse, vaan riittää, että
+repositorio päivitetään.
 
 ## Dokumentaatio
 * [Vaatimusmäärittely](dokumentaatio/vaatimusmäärittely.md)
@@ -19,7 +16,6 @@ tarkisteta, vaan komento lataa aina uusimman version.
 * [Käyttöohje](dokumentaatio/käyttöohje.md)
 
 ## Toiminnot
-
 Toiminnoissa mainittu `$GOPATH`-kansio on yleensä `$HOME/go`.
 
 `GOPATH`ia voi muuttaa asettamalla ympäristömuuttujan ennen `go`-komennon ajamista, esim: `export GOPATH=$HOME/new_gopath`
@@ -33,8 +29,6 @@ $ go get -u maunium.net/go/gomuks
 ```
 Tämä komento lataa tai päivittää gomuksin kansioon `$GOPATH/src/maunium.net/go/gomuks`,
 hakee kaikki riippuvuudet ja kompiloi ohjelman kansioon `$GOPATH/bin`.
-
-Jos käytät vgo:ta, kloonaa gomuks kansioon `$GOPATH/src/maunium.net/go/gomuks` ja aja siellä `vgo get -u`
 
 Gomuksin päivitystä varten riittää, että ajaa asennuskomennon uudestaan.
 
@@ -66,7 +60,7 @@ Tiedosto nykyiseen hakemistoon:
 $ go build
 ```
 
-Tiedosto `$GOPATH/bin`:iin:
+TAI tiedosto `$GOPATH/bin`:iin:
 ```bash
 $ go install
 ```
@@ -80,7 +74,7 @@ Asenna golint:
 $ go get -u golang.org/x/lint/golint
 ```
 
-Aja golint. `grep`-komento poistaa varoitukset puuttuvasta dokumentaatiosta.
+Aja golint. `grep`-osio poistaa varoitukset puuttuvasta dokumentaatiosta.
 ```bash
 $ golint ./... | grep -v "should have comment"
 ```
