@@ -12,7 +12,10 @@ Sovelluksella ei ole eri käyttäjätyyppejä.
 ![Viestinäkymä](https://img.mau.lu/hhj4M.png)
 
 ## Perusversion tarjoama toiminnallisuus
-* Ohjelman on toimittava yleisillä terminaaliemulaattoreilla yleisillä GNU/Linux-jakeluilla ja macOS-käyttöjärjestelmällä. Windows-tuki ei ole vaadittu.
+* Ohjelman on toimittava yleisillä terminaaliemulaattoreilla yleisillä
+  GNU/Linux-jakeluilla ja iTermillä macOS-käyttöjärjestelmällä. Täydellinen
+  Terminal.app-tuki ei ole vaadittu kyseisen terminaalin puutteiden vuoksi.
+  Windows-tuki ei ole vaadittu.
 
 ### Ennen kirjautumista
 * Käyttäjä voi kirjautua järjestelmään

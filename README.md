@@ -75,14 +75,14 @@ $ go install
 https://godoc.org/maunium.net/go/gomuks
 
 ### Tyylin tarkistus
-Asenna gometalinter:
+Asenna golint:
 ```bash
-$ go get -u github.com/alecthomas/gometalinter
+$ go get -u golang.org/x/lint/golint
 ```
 
-Aja gometalinter:
+Aja golint. `grep`-komento poistaa varoitukset puuttuvasta dokumentaatiosta.
 ```bash
-$ gometalinter
+$ golint ./... | grep -v "should have comment"
 ```
 
-Tyyliongelmat tulostetaan
+Tyyliongelmat tulostetaan stdout:iin
