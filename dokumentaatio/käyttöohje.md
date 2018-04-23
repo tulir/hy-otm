@@ -36,7 +36,7 @@ up/down -näppäimiä.
 
 ### Huoneet
 Huoneiden välillä siirtyminen tapahtuu ctrl+ylös/alas tai alt+ylös/alas
--näppäinkomennoilla.
+-näppäinkomennoilla, tai painamalla hiirellä huoneen nimeä listassa.
 
 Huoneiden luonti ei tällä hetkellä ole mahdollista.
 Olemassaoleviin huoneisiin voi liittyä komennolla `/join <huone>`, jossa
