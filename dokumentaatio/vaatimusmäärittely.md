@@ -27,7 +27,7 @@ Sovelluksella ei ole eri käyttäjätyyppejä.
   * [x] uudet viestit työpöytäilmoituksina
   * [x] viestin tekstin kokonaan, vaikka viesti ei mahtuisi yhdelle riville
   * [x] kuvat renderöitynä terminaalin värien avulla
-  * [x] Pienen HTML-osajoukon renderöinti terminaalin tyylien avulla
+  * [x] pienen HTML-osajoukon renderöitynä terminaalin tyylien avulla
 * Käyttäjä voi
   * [ ] klikata linkkejä avatakseen ne vakioselaimella
   * [x] klikata kuvia avatakseen ne vakiokuvankatseluohjelmalla
