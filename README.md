@@ -1,13 +1,15 @@
-# OTM-laskarit
+# OTM
+Harjoitustyö on Go:lla kirjoitettu terminaalipohjainen (ncurses-tyylinen)
+asiakasohjelma Matrix-protokollalle.
 
-Harjoitustyö on Go:lla kirjoitettu terminaalipohjainen (ncurses-tyylillä)
-asiakasohjelma Matrix-protokollalle. Itse projekti löytyy [gomuks](https://github.com/tulir/gomuks)-reposta,
-ja kurssin vaatima dokumentaatio tämän repon kansiosta [/dokumentaatio](dokumentaatio).
-
-Mavenia vastaavana riippuvuuksien hallintajärjestelmänä käytetään [dep](https://github.com/golang/dep)-järjestelmää.
-`dep`:ssä riippuvuudet tallennetaan git-repositorioon vendor-kansion alle, ja ne saa tarvittaessa päivitettyä
-komennolla `dep ensure -update`. Käyttäjien ei kuitenkaan tarvitse päivittää riippuvuuksia itse, vaan riittää, että
-repositorio päivitetään.
+* Tästä reposta löytyy
+  * [dokumentaatio](dokumentaatio)
+  * [releaset](https://github.com/tulir/hy-otm/releases), koska ohjelma ei ole
+    haluamallani tasolla oikeita releaseja varten
+  * [laskarit](laskarit)
+* [gomuks](https://github.com/tulir/gomuks)-reposta löytyy
+  * itse projekti
+  * testit
 
 ## Dokumentaatio
 * [Vaatimusmäärittely](dokumentaatio/vaatimusmäärittely.md)
@@ -16,9 +18,15 @@ repositorio päivitetään.
 * [Käyttöohje](dokumentaatio/käyttöohje.md)
 
 ## Toiminnot
-Toiminnoissa mainittu `$GOPATH`-kansio on yleensä `$HOME/go`.
+Mavenia vastaavana riippuvuuksien hallintajärjestelmänä käytetään [dep](https://github.com/golang/dep)
+-järjestelmää. `dep`:ssä riippuvuudet tallennetaan git-repositorioon vendor-kansion
+alle, ja ne saa tarvittaessa päivitettyä komennolla `dep ensure -update`. Käyttäjien
+ei kuitenkaan tarvitse päivittää riippuvuuksia itse, vaan riittää, että repositorio
+päivitetään.
 
-`GOPATH`ia voi muuttaa asettamalla ympäristömuuttujan ennen `go`-komennon ajamista, esim: `export GOPATH=$HOME/new_gopath`
+Toiminnoissa mainittu `$GOPATH`-kansio on yleensä `$HOME/go`. `GOPATH`ia voi
+muuttaa asettamalla ympäristömuuttujan ennen `go`-komennon ajamista, esim:
+`export GOPATH=$HOME/new_gopath`
 
 ### Asennus
 Asenna [Go:n standardityökalut](https://golang.org/dl/).
@@ -40,12 +48,11 @@ $ go get github.com/stretchr/testify/assert
 
 Testien suoritus:
 ```bash
-$ go test ./...
+$ go test ./... -coverprofile=coverage.out
 ```
 
 Testikattavuusraportin generointi (raportti avautuu selaimessa):
 ```
-$ go test ./... -coverprofile=coverage.out
 $ go tool cover -html=coverage.out
 ```
 
