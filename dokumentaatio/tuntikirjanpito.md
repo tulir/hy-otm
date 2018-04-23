@@ -42,4 +42,4 @@
 | 21.4. | 2    | Tab-täydennyksen ja Markdown-renderöinnin parannuksia, huonelistaan hiirituki         |
 | 22.4. | 2    | Huoneiden osoitteiden tab-täydennys, `dep`:iin vaihto, lisää testejä                  |
 | 23.4. | 1    | Virheiden näyttö kirjautumisnäkymässä, dokumentaatiokorjauksia                        |
-| yht   | 99   |                                                                                       |
+| yht   | 100  |                                                                                       |
