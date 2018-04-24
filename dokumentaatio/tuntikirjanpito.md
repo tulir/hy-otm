@@ -3,31 +3,31 @@
 | päivä | aika | mitä tein                                                                             |
 |------:|:----:|:--------------------------------------------------------------------------------------|
 | helmi | 5    | TUI-kirjastojen etsiminen ja testailu                                                 |
-| 13.3. | 4    | alustava käyttöliittymätoteutus ja viestien lähetys/vastaanotto                       |
-| 14.3. | 2    | tviewin inputfieldin parantelua, järkevät näppäinkomennot                             |
-| 15.3. | 4    | gomatrixiin huoneiden tietojen hakemista varten apufunktioita                         |
-| 16.3. | 6    | huoneisiin liittyminen ja niistä poistuminen, UI-muutoksia                            |
-| 17.3. | 2    | kunnollinen viestinäyttökomponentti                                                   |
-|       | 2    | inputfieldin leveiden merkkien tuen korjaus (esim. kiinalaiset merkit)                |
-|       | 1    | autocomplete-toiminnallisuus inputfieldiin                                            |
-|       | 1    | huoneeseen liittymisen ja poistumisen näyttäminen                                     |
-| 18.3. | 4    | alustava viestihistorian näyttö ja ohjelman jako paketteihin                          |
-| 19.3. | 1    | vakavien virheiden käyttäjäystävällinen tulostus                                      |
-| 20.3. | 4    | vanhemman viestihistorian hakemiselle tuki, viestien renderöinnin yksinkertaistamista |
-|       | 1    | lähtevien viestien näyttö heti (ennen vastauksen saamista)                            |
-|       | 1    | dokumentaatiota, pieniä korjauksia                                                    |
-|       | 2    | yksinkertainen tuki työpöytäilmoituksille                                             |
-| 21.3. | 4    | tuki työpöytäilmoitusten filteröintijärjestelmälle (push rules), pieniä korjauksia    |
-|       | 2    | refaktorointia ja dokumentaatiota                                                     |
-| 22.3. | 2    | tuki viestihistorian levylle tallentamiselle                                          |
-|       | 2    | tuki m.emote-viestityypille (/me-komento)                                             |
-|       | 2    | bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
-| 23.3. | 2    | historiaa selatessa sijainnin näyttö                                                  |
-|       | 2    | bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
-| 24.3. | 1    | viestien haun optimointia                                                             |
-| 25.3. | 2    | parempi tuki hiirellä rullaukselle, huonelistan siirto omaan komponenttiin            |
-| 26.3. | 1    | parannuksia vierityspalkin sijainnin laskentaan                                       |
-|       | 2    | uusien viestien näyttö huonelistassa, notifikaatioäänet ja muita parannuksia          |
+| 13.3. | 4    | Alustava käyttöliittymätoteutus ja viestien lähetys/vastaanotto                       |
+| 14.3. | 2    | `tview`in inputfieldin parantelua, järkevät näppäinkomennot                             |
+| 15.3. | 4    | `gomatrix`iin huoneiden tietojen hakemista varten apufunktioita                       |
+| 16.3. | 6    | Huoneisiin liittyminen ja niistä poistuminen, UI-muutoksia                            |
+| 17.3. | 2    | Kunnollinen viestinäyttökomponentti                                                   |
+|       | 2    | Inputfieldin leveiden merkkien tuen korjaus (esim. kiinalaiset merkit)                |
+|       | 1    | Autocomplete-toiminnallisuus inputfieldiin                                            |
+|       | 1    | Huoneeseen liittymisen ja poistumisen näyttäminen                                     |
+| 18.3. | 4    | Alustava viestihistorian näyttö ja ohjelman jako paketteihin                          |
+| 19.3. | 1    | Vakavien virheiden käyttäjäystävällinen tulostus                                      |
+| 20.3. | 4    | Vanhemman viestihistorian hakemiselle tuki, viestien renderöinnin yksinkertaistamista |
+|       | 1    | Lähtevien viestien näyttö heti (ennen vastauksen saamista)                            |
+|       | 1    | Dokumentaatiota, pieniä korjauksia                                                    |
+|       | 2    | Yksinkertainen tuki työpöytäilmoituksille                                             |
+| 21.3. | 4    | Tuki työpöytäilmoitusten filteröintijärjestelmälle (push rules), pieniä korjauksia    |
+|       | 2    | Refaktorointia ja dokumentaatiota                                                     |
+| 22.3. | 2    | Tuki viestihistorian levylle tallentamiselle                                          |
+|       | 2    | Tuki m.emote-viestityypille (/me-komento)                                             |
+|       | 2    | Bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
+| 23.3. | 2    | Historiaa selatessa sijainnin näyttö                                                  |
+|       | 2    | Bugikorjauksia, refaktorointia ja dokumentaatiota                                     |
+| 24.3. | 1    | Viestien haun optimointia                                                             |
+| 25.3. | 2    | Parempi tuki hiirellä rullaukselle, huonelistan siirto omaan komponenttiin            |
+| 26.3. | 1    | Parannuksia vierityspalkin sijainnin laskentaan                                       |
+|       | 2    | Uusien viestien näyttö huonelistassa, notifikaatioäänet ja muita parannuksia          |
 |  8.4. | 4    | Matrix-kommunikaation ja UI:n erottelu täysin interfacejen avulla                     |
 | 10.4. | 5.5  | UI:n sisäistä refaktorointia, kuvien renderöinti pixtermin avulla                     |
 | 10.4. | 0.5  | Pushrules-paketille testin kirjoittaminen                                             |
