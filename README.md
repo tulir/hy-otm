@@ -81,9 +81,9 @@ Asenna golint:
 $ go get -u golang.org/x/lint/golint
 ```
 
-Aja golint. `grep`-osio poistaa varoitukset puuttuvasta dokumentaatiosta.
+Aja golint. `grep`-osiot poistavat varoitukset puuttuvasta dokumentaatiosta ja kaikki tarkistukset ulkoisilta kirjastoilta.
 ```bash
-$ golint ./... | grep -v "should have comment"
+$ golint ./... | grep -v "should have comment" | grep -v "vendor/"
 ```
 
-Tyyliongelmat tulostetaan stdout:iin
+Tyyliongelmat tulostetaan stdout:iin. Mitään muuta ei tulosteta, eli tyyliongelmien puuttuessa mitään ei tulosteta.
