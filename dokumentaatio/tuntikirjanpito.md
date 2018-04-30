@@ -44,4 +44,5 @@
 | 23.4. | 1    | Virheiden näyttö kirjautumisnäkymässä, dokumentaatiokorjauksia                        |
 | 24.4. | 2    | Tagien perusteella huoneiden järjestely, bugikorjauksia                               |
 | 24.4. | 4    | Sisäisiä parannuksia Matrix APIn käytössä                                             |
-| yht   | 106  |                                                                                       |
+| 30.4. | 2    | Natiivin paste-toiminnon tuen korjaus, tuki huonelistan rullaukselle, bugikorjauksia  |
+| yht   | 108  |                                                                                       |
