@@ -1,6 +1,6 @@
 # Käyttöohje
 Asenna gomuks kääntämällä se [README](../README.md)ssa selitetyllä tavalla tai
-lataamalla paketti [releases](https://github.com/tulir/gomuks/releases)-osiosta.
+lataamalla valmiiksi käännetty versio [releases](https://github.com/tulir/hy-otm/releases)-osiosta.
 
 ## Ohjelman käynnistäminen
 Ohjelma käynnistetään ajamalla
