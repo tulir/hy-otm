@@ -47,4 +47,5 @@
 | 30.4. | 2    | Natiivin paste-toiminnon tuen korjaus, tuki huonelistan rullaukselle, bugikorjauksia  |
 | 30.4. | 1    | Huoneisiin liittymisen ja niistä poistumisen korjaus                                  |
 | 1.5.  | 2    | Refaktorointia ja dokumentaation päivitystä                                           |
-| yht   | 111  |                                                                                       |
+| 2.5.  | 2    | Lisää testejä                                                                         |
+| yht   | 113  |                                                                                       |
