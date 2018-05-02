@@ -38,11 +38,6 @@ Sovelluksella ei ole eri käyttäjätyyppejä.
     * [x] lähettää formatoituja viestejä
   * [ ] luoda huoneita
   * [ ] kutsua muita käyttäjiä huoneeseen
-  * [ ] moderoida huoneita
-    * [ ] poistaa käyttäjiä huoneesta
-    * [ ] antaa käyttäjille porttikielto huoneeseen
-    * [ ] hiljentää käyttäjä
-    * [ ] antaa muille käyttäjille lupa moderoida huonetta
   * [ ] kirjautua ulos
 
 ## Jatkokehitysideoita
@@ -53,3 +48,4 @@ Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seura
 * Ulkoasun konfigurointi
 * Rekisteröityminen
 * Monirivisten viestien lähettäminen
+* Huoneiden moderointi
