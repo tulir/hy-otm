@@ -48,4 +48,5 @@
 | 30.4. | 1    | Huoneisiin liittymisen ja niistä poistumisen korjaus                                  |
 | 1.5.  | 2    | Refaktorointia ja dokumentaation päivitystä                                           |
 | 2.5.  | 2    | Lisää testejä                                                                         |
-| yht   | 113  |                                                                                       |
+| 3.5.  | 2    | Debian-paketin generointiskripti, parannuksia huonelistaan                            |
+| yht   | 115  |                                                                                       |
