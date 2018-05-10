@@ -51,6 +51,11 @@ Testien suoritus:
 $ go test ./... -coverprofile=coverage.out
 ```
 
+Testikattavuustietojen lukeminen (mm. kokonaiskattavuus, raportti tekstinä terminaaliin):
+```
+$ go tool cover -func=coverage.out
+```
+
 Testikattavuusraportin generointi (raportti avautuu selaimessa):
 ```
 $ go tool cover -html=coverage.out
