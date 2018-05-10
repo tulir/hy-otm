@@ -22,29 +22,30 @@ Sovelluksella ei ole eri käyttäjätyyppejä.
 
 ### Kirjautumisen jälkeen
 * Käyttäjä näkee
-  * [x] listan huoneista, joihin käyttäjä on liittynyt
-  * [x] uudet viestit huoneissa
-  * [x] uudet viestit työpöytäilmoituksina
-  * [x] viestin tekstin kokonaan, vaikka viesti ei mahtuisi yhdelle riville
-  * [x] kuvat renderöitynä terminaalin värien avulla
-  * [x] pienen HTML-osajoukon renderöitynä terminaalin tyylien avulla
+  * listan huoneista, joihin käyttäjä on liittynyt
+  * uudet viestit huoneissa
+  * uudet viestit työpöytäilmoituksina
+  * viestin tekstin kokonaan, vaikka viesti ei mahtuisi yhdelle riville
+  * kuvat renderöitynä terminaalin värien avulla
+  * pienen HTML-osajoukon renderöitynä terminaalin tyylien avulla
 * Käyttäjä voi
-  * [ ] klikata linkkejä avatakseen ne vakioselaimella
-  * [x] klikata kuvia avatakseen ne vakiokuvankatseluohjelmalla
-  * [x] liittyä huoneisiin ja poistua huoneista
-  * [x] vaihtaa huoneiden välillä
-  * [x] selata huoneen viestihistoriaa
-  * [x] lähettää viestin huoneeseen
-    * [x] lähettää formatoituja viestejä
-  * [ ] luoda huoneita
-  * [ ] kutsua muita käyttäjiä huoneeseen
-  * [ ] kirjautua ulos
+  * klikata kuvia avatakseen ne vakiokuvankatseluohjelmalla
+  * liittyä huoneisiin ja poistua huoneista
+  * vaihtaa huoneiden välillä
+  * selata huoneen viestihistoriaa
+  * lähettää viestin huoneeseen
+    * lähettää formatoituja viestejä
+  * luoda huoneita
+  * kutsua muita käyttäjiä huoneeseen
 
 ## Jatkokehitysideoita
 Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla
 
+* Huoneiden luonti
+* Käyttäjien kutsuminen huoneisiin
 * Huoneiden asetusten muuttaminen
 * Käyttäjän asetusten muuttaminen
+* Klikkaustoimintoja viesteihin (esim linkkien klikkaaminen niiden avaamista varten)
 * Ulkoasun konfigurointi
 * Rekisteröityminen
 * Monirivisten viestien lähettäminen

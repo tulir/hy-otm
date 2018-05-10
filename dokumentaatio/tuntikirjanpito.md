@@ -49,4 +49,5 @@
 | 1.5.  | 2    | Refaktorointia ja dokumentaation päivitystä                                           |
 | 2.5.  | 2    | Lisää testejä                                                                         |
 | 3.5.  | 2    | Debian-paketin generointiskripti, parannuksia huonelistaan                            |
-| yht   | 115  |                                                                                       |
+| 10.5. | 2    | Lisää testejä ja dokumentaatiota                                                      |
+| yht   | 117  |                                                                                       |
