@@ -35,8 +35,6 @@ Sovelluksella ei ole eri käyttäjätyyppejä.
   * selata huoneen viestihistoriaa
   * lähettää viestin huoneeseen
     * lähettää formatoituja viestejä
-  * luoda huoneita
-  * kutsua muita käyttäjiä huoneeseen
 
 ## Jatkokehitysideoita
 * Huoneiden luonti

@@ -50,5 +50,5 @@
 | 2.5.  | 2    | Lisää testejä                                                                         |
 | 3.5.  | 2    | Debian-paketin generointiskripti, parannuksia huonelistaan                            |
 | 10.5. | 2    | Lisää testejä ja dokumentaatiota                                                      |
-| 11.5. | 1    | Lisää testejä, dokumentaatiota ja loppupalautus-release                               |
-| yht   | 118  |                                                                                       |
+| 11.5. | 2    | Lisää testejä, dokumentaatiota ja loppupalautus-release                               |
+| yht   | 119  |                                                                                       |
