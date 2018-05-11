@@ -14,6 +14,7 @@ asiakasohjelma Matrix-protokollalle.
 ## Dokumentaatio
 * [Vaatimusmäärittely](dokumentaatio/vaatimusmäärittely.md)
 * [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
+* [Testaus](dokumentaatio/testaus.md)
 * [Arkkitehtuuri](dokumentaatio/arkkitehtuuri.md)
 * [Käyttöohje](dokumentaatio/käyttöohje.md)
 

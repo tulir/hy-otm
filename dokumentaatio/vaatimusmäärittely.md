@@ -39,8 +39,6 @@ Sovelluksella ei ole eri käyttäjätyyppejä.
   * kutsua muita käyttäjiä huoneeseen
 
 ## Jatkokehitysideoita
-Perusversion jälkeen järjestelmää täydennetään ajan salliessa esim. seuraavilla toiminnallisuuksilla
-
 * Huoneiden luonti
 * Käyttäjien kutsuminen huoneisiin
 * Huoneiden asetusten muuttaminen

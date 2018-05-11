@@ -41,4 +41,3 @@ Huoneiden välillä siirtyminen tapahtuu ctrl+ylös/alas tai alt+ylös/alas
 Huoneiden luonti ei tällä hetkellä ole mahdollista.
 Olemassaoleviin huoneisiin voi liittyä komennolla `/join <huone>`, jossa
 `<huone>` on huoneen ID tai osoite (esimerkiksi `#test:maunium.net`)
-
